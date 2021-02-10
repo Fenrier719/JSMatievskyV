@@ -9,7 +9,7 @@
 
 <body>
 
-    <div class="staticField">
+    <div class="header">
 
         <div class="buttons">
             <button><a href="#">General</a>
@@ -17,52 +17,52 @@
         </div>
 
         <div class="buttons">
-            <button class="button1"><a href="#PartOne">Part One</a>
+            <button class="button1"><a href="#part-one">Part One</a>
             </button>
         </div>
 
         <div class="buttons">
             <button class="button2">
-                <a href="#PartTwo">Part Two</a>
+                <a href="#part-two">Part Two</a>
             </button>
         </div>
 
         <div class="buttons">
             <button class="button3">
-                <a href="#PartThree">Part Three</a>
+                <a href="#part-three">Part Three</a>
             </button>
         </div>
 
         <div class="buttons">
             <button class="button4">
-                <a href="#PartFour">Part Four</a>
+                <a href="#part-four">Part Four</a>
             </button>
         </div>
 
         <div class="buttons">
             <button class="button5">
-                <a href="#PartFive">Part Five</a>
+                <a href="#part-five">Part Five</a>
             </button>
         </div>
 
         <div class="buttons">
-            <input id="myText" class="SafeModeButton" type="button" value="Safe site mode" onclick="changeBackColor(), change(value)"></input> 
+            <input id="myText" class="safe-mode-button" type="button" value="Safe site mode" onclick="changeBackColor(), change(value)"></input> 
         </div>
 
     </div>
 
-    <div class="FlexLink">
+    <div class="flex-link">
         <a href="flex.html">
             <img src="Ricardo.png" style="min-height: 90px; max-height: 270px;" width="auto"></img>
         </a>
     </div>
 
-    <h2 class="pictureDetail">Click on the picture to flex!</h2>
+    <h2 class="picture-detail">Click on the picture to flex!</h2>
 
-    <div id="redDiv" class="backgroundRed"></div>
+    <div id="red-div" class="background-red"></div>
 
     <div>
-        <h1 id="PartOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et bibendum leo. Pellentesque
+        <h1 id="part-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et bibendum leo. Pellentesque
             sed dui vitae elit sodales pulvinar. Cras ut est lorem. In ut finibus magna, mattis aliquam mi. In laoreet
             nisi
             ac lacus vehicula malesuada. Vestibulum tempor mi sapien, eu rhoncus ipsum consectetur vel. Aenean vel
@@ -72,7 +72,7 @@
     </div>
 
     <div>
-        <h1 id="PartTwo">Donec sit amet ligula fermentum, finibus est id, consectetur tellus. Fusce sit amet eros quis
+        <h1 id="part-two">Donec sit amet ligula fermentum, finibus est id, consectetur tellus. Fusce sit amet eros quis
             elit ullamcorper laoreet pellentesque sit amet velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Praesent fringilla aliquet lectus, quis hendrerit felis vestibulum consectetur. Aliquam sem lectus, luctus sit
             amet mi ut, cursus dictum risus. Curabitur a blandit mi. Maecenas id volutpat elit, fermentum pulvinar arcu.
@@ -82,7 +82,7 @@
     </div>
 
     <div>
-        <h1 id="PartThree">Phasellus euismod neque sapien, vel egestas nulla volutpat vitae. In lobortis consectetur
+        <h1 id="part-three">Phasellus euismod neque sapien, vel egestas nulla volutpat vitae. In lobortis consectetur
             scelerisque. Cras eget rhoncus arcu. Donec sed tristique justo. Sed quis tempus felis, at vestibulum metus. Ut
             egestas risus a purus iaculis efficitur. Ut cursus lorem mollis magna fermentum vestibulum. Donec a lacinia
             nisi. Aenean faucibus ante erat, ut porta nisl elementum id. Ut consequat turpis mi. Nulla id nisl et magna
@@ -93,7 +93,7 @@
     </div>
 
     <div>
-        <h1 id="PartFour">Mauris vulputate ut ex in euismod. Sed felis lacus, consectetur non aliquam tristique,
+        <h1 id="part-four">Mauris vulputate ut ex in euismod. Sed felis lacus, consectetur non aliquam tristique,
             ultrices eget massa. Integer finibus consectetur tortor, nec pharetra nunc. Etiam a mattis odio, eu iaculis
             sapien. Etiam gravida aliquet arcu, sit amet posuere arcu accumsan ac. Aenean et augue id dui tempor imperdiet
             et sed elit. In non egestas libero. Praesent orci ex, congue at hendrerit eget, tincidunt id lectus. Vivamus
@@ -102,7 +102,7 @@
     </div>
 
     <div>
-        <li id="PartFive">Maecenas non placerat dui. Etiam pretium justo ut est molestie, id hendrerit mi hendrerit. Ut
+        <li id="part-five">Maecenas non placerat dui. Etiam pretium justo ut est molestie, id hendrerit mi hendrerit. Ut
             lobortis nunc quis aliquam commodo. Sed sodales molestie ex sit amet ultrices. Sed quis eros vel augue commodo
             hendrerit tempus id nulla. Cras elementum dictum elit pharetra pretium. Fusce sodales, sapien a viverra laoreet,
             tellus neque bibendum ligula, in dapibus ante metus at magna. Integer id iaculis metus. Ut semper dolor eu orci
@@ -123,19 +123,19 @@
             changeBackColor('gray');
         else
             document.getElementById("myText").value = "Safe site mode",
-            document.getElementById("redDiv").style.backgroundColor = "red",
+            document.getElementById("red-div").style.backgroundColor = "red",
             changeColor('white');
     }
 
     function changeBackColor() {
         changeColor('gray');
-        document.getElementById("redDiv").style.backgroundColor = "gray";
+        document.getElementById("red-div").style.backgroundColor = "gray";
     }
 
 </script>
 
 <style>
-    .FlexLink {
+    .flex-link {
         margin-left: 15px;
         top: 10%;
         position: relative;
@@ -144,7 +144,7 @@
         justify-content: center;
     }
 
-    .pictureDetail {
+    .picture-detail {
         margin-left: 15px;
         top: 9%;
         position: relative;
@@ -153,7 +153,7 @@
         justify-content: center;
     }
 
-    .staticField {
+    .header {
         align-items: center;
         justify-content: center;
         height: 10%;
@@ -166,7 +166,7 @@
         display: flex;
     }
 
-    .backgroundRed {
+    .background-red {
         height: 35%;
         width: 100%;
         background-color: red;
@@ -175,7 +175,7 @@
         display: flex;
     }
 
-    .SafeModeButton {
+    .safe-mode-button {
         background-color: grey;
         max-width: 100%;
         left: 82%;
@@ -229,7 +229,7 @@
         margin: 0%;
     }
 
-    #PartOne {
+    #part-one {
         margin-right: 15px;
         margin-left: 15px;
         color: blue;
@@ -238,7 +238,7 @@
         padding-bottom: 500px;
     }
 
-    #PartTwo {
+    #part-two {
         margin-right: 15px;
         margin-left: 15px;
         color: rgb(10, 241, 21);
@@ -247,7 +247,7 @@
         padding-bottom: 500px;
     }
 
-    #PartThree {
+    #part-three {
         margin-right: 15px;
         margin-left: 15px;
         color: white;
@@ -255,7 +255,7 @@
         padding-bottom: 500px;
     }
 
-    #PartFour {
+    #part-four {
         margin-right: 15px;
         margin-left: 15px;
         color: black;
@@ -263,7 +263,7 @@
         padding-bottom: 500px;
     }
 
-    #PartFive {
+    #part-five {
         margin-right: 15px;
         margin-left: 15px;
         color: rgb(1, 17, 16);
