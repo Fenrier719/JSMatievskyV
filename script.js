@@ -29,7 +29,7 @@ function stringParse(string) {
     }
 }
 
-let a = stringParse("helllloookat");
+let a = stringParse("hellllooooookat");
 console.log(a);
 
 
@@ -52,3 +52,12 @@ null + 1 // 1
 undefined + 1 // NaN
 " \t \n" - 2 // -2
 */
+
+/* task5 */
+
+/* 0 == null; // false
+null == undefined // true
+1 == {} // false
+{} == 1 // false
+({}) == 1 // false
+({toString: () => '12'}) == 12 */ // true
